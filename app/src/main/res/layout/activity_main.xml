@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    tools:context="com.example.chinmoydash.ddugky.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/employer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ivemployer"
+            android:gravity="center|start"
+            android:text="Employer"
+            android:onClick="launchEmployerActivity"/>
+
+        <ImageView
+            android:id="@+id/ivemployer"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/trainer" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/candidate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ivcandidate"
+            android:gravity="center|start"
+            android:text="Candidate"
+            android:onClick="launchCandidateActivity"/>
+
+        <ImageView
+            android:id="@+id/ivcandidate"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/trainer" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/trainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ivtrainer"
+            android:gravity="center|start"
+            android:text="Trainer" />
+
+        <ImageView
+            android:id="@+id/ivtrainer"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/trainer" />
+    </RelativeLayout>
+
+</LinearLayout>
