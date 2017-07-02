@@ -16,13 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EmployerActivity" >
-            </activity>
-        <activity android:name=".CandidateActivity" >
-            </activity>
-        <activity android:name=".TrainerActivity">
-
-        </activity>
+        <activity android:name=".EmployerActivity"></activity>
+        <activity android:name=".CandidateActivity"></activity>
+        <activity android:name=".TrainerActivity"></activity>
+        <activity android:name=".UserInfoActivity"></activity>
     </application>
 
 </manifest>

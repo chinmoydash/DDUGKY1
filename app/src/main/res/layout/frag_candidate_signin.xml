@@ -1,18 +1,31 @@
-<RelativeLayout
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.chinmoydash.ddugky.CandidateSignInFrag">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/candemail_si"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign_in"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+        android:hint="e mail"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/candpass_si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="textPassword"/>
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btncandsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
+
+
+</LinearLayout >

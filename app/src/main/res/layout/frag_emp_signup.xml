@@ -1,38 +1,51 @@
 <RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context="com.example.chinmoydash.ddugky.EmployerActivity">
-    <EditText
-        android:id="@+id/nameet"
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etempname_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:hint="name" />
-
-    <EditText
-        android:id="@+id/mobnoet"
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etempmob_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nameet"
+        android:layout_below="@id/etempname_up"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:hint="mobno"/>
-
-    <EditText
-        android:id="@+id/emailet"
+        android:hint="mobno"
+        app:met_minCharacters="10"
+        app:met_checkCharactersCountAtBeginning="false"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/emailet_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/mobnoet"
+        android:layout_below="@id/etempmob_up"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:hint="email"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailet_up"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="password"/>
+
 
     <Button
-        android:id="@+id/sign_up"
+        android:id="@+id/emp_sign_up"
         android:text="Sign-Up "
         android:layout_width="match_parent"
         android:layout_height="50dp"

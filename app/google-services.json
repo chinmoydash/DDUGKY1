@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "386984863004",
+    "firebase_url": "https://ddugky-ca10f.firebaseio.com",
+    "project_id": "ddugky-ca10f",
+    "storage_bucket": "ddugky-ca10f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386984863004:android:33d77d352111d077",
+        "android_client_info": {
+          "package_name": "com.example.chinmoydash.ddugky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386984863004-e3nj17jice2ug2d87rt8dc8t2n9knblm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chinmoydash.ddugky",
+            "certificate_hash": "0fda743814c08357d222d7a8b6f82e656e1e98fc"
+          }
+        },
+        {
+          "client_id": "386984863004-5q6gkkp536cntqstvj04sh6hib9i15gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ4v2ELWTWLlTLqo-RRib0GWkNs9x7T5g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386984863004-5q6gkkp536cntqstvj04sh6hib9i15gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

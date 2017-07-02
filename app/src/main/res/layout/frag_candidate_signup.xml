@@ -2,15 +2,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.chinmoydash.ddugky.CandidateSignUpFrag">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etcandemail_up"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign-up"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etcandpass_up"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/etcandemail_up"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etcandpass_up"
+        android:id="@+id/etcandmob_up"
+        android:hint="Mobile No"
+        android:inputType="number"
+        app:met_minCharacters="10"
+        app:met_checkCharactersCountAtBeginning="false"/>
+
+    <Button
+        android:id="@+id/btncandsign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Sign up" />
 
 </RelativeLayout>

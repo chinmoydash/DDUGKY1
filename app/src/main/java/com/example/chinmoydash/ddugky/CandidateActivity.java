@@ -37,8 +37,8 @@ public class CandidateActivity extends AppCompatActivity {
     }
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new CandidateSignInFrag(), " Candidate Sign-in");
-        adapter.addFragment(new CandidateSignUpFrag(), "Candidate  Sign-up");
+        adapter.addFragment(new CandidateSignInFrag(), "Candidate Sign-in");
+        adapter.addFragment(new CandidateSignUpFrag(), "Candidate Sign-up");
         viewPager.setAdapter(adapter);
 
     }
